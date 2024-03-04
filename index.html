@@ -11,11 +11,15 @@
     </head>
 <body>
   <div class="container mt-5">
-    <div class="icon">
-     <a href="#" title="Saved Items" class="showSaved"><i class="fa-solid fa-bookmark"></i></a>
-    </div>
+    
     <div class="top">
-      <h2 class="text-capitalize fs-1 mb-3" >find meals for your ingredient</h2>
+      <div class="icon-container">
+        <div class="icon">
+          <a href="#" title="Saved Items" class="showSaved"><i class="fa-solid fa-bookmark"></i></a>
+         </div>
+        <h2 class="text-capitalize fs-1 mb-3" >find meals for your ingredient</h2>
+      </div>
+      
       <figure class="text-center fs-5">
         <blockquote class="blockquote ">
           <p class="fs-5">Real food dosen't havr ingredients. Real food is ingredients.</p>
@@ -26,7 +30,7 @@
       </figure>
       <div class="search w-100">
         <!-- <label for="search">kk</label>      margin-left: -51px;-->
-        <input type="text" name="search" id="search" placeholder="Enter an ingredient" class="border rounded w-50  ">
+        <input type="text" name="search" id="search" placeholder="Enter an ingredient" class="border rounded   ">
         <button type="button" name="button" id="buttonSearch" class=" rounded ">
           <i class = "fas fa-search"></i>
         </button>
@@ -51,6 +55,7 @@
   <div class="details">
      
   </div>
+  <div class="message">Recipe Saved</div>
 <script src="js/bootstrap.js"></script>
 <script type="module" src="js/main.js"></script>
 </body>
